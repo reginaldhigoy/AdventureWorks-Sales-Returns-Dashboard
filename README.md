@@ -75,19 +75,19 @@ This dashboard helps the **Sales & Operations Leadership Team** understand:
 ## 🖼️ Dashboard Screenshots
 
 ### Page 1 – Overview
-![Overview](images/Overview.JPG)
+![Overview](Images/Overview.JPG)
 
 ### Page 2 – Product Performance
-![Product Performance](images/Product)
+![Product Performance](Images/Country's Performance.JPG)
 
 ### Page 3 – Customer Insights
-![Customer Insights](images/page3_customer.png)
+![Customer Insights](Images/Customer Insights.JPG)
 
 ### Page 4 – Country Performance
-![Country Performance](images/page4_country.png)
+![Country Performance](Images/Country's Performance.JPG)
 
 ### Page 5 – Insights & Recommendations
-![Insights](images/page5_insights.png)
+![Insights](Images/Insights and Recommendations.JPG)
 
 
 
@@ -105,16 +105,11 @@ This dashboard helps the **Sales & Operations Leadership Team** understand:
 ## 👩‍💻 Author
 
 **Reginald Higoy**  
-https://www.linkedin.com/in/reginaldhigoy/ | [Portfolio URL]
-
+https://www.linkedin.com/in/reginaldhigoy/ 
 
 
 ## 📅 Project Date
-
 May 10, 2026
 
-
-
-## 📜 License
 
 This project is for portfolio purposes only.
