@@ -78,16 +78,16 @@ This dashboard helps the **Sales & Operations Leadership Team** understand:
 ![Overview](Images/Overview.JPG)
 
 ### Page 2 – Product Performance
-![Product Performance](Images/Country's Performance.JPG)
+![Product Performance](Images/Country'sPerformance.JPG)
 
 ### Page 3 – Customer Insights
-![Customer Insights](Images/Customer Insights.JPG)
+![Customer Insights](Images/CustomerInsights.JPG)
 
 ### Page 4 – Country Performance
-![Country Performance](Images/Country's Performance.JPG)
+![Country Performance](Images/Country'sPerformance.JPG)
 
 ### Page 5 – Insights & Recommendations
-![Insights](Images/Insights and Recommendations.JPG)
+![Insights](Images/InsightsAndRecommendations.JPG)
 
 
 
