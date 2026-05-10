@@ -1,0 +1,24 @@
+=== DAX MEASURES ===
+
+Avg Order Value = DIVIDE([Revenue], [Total Orders])
+
+COGS = SUMX(fact_sales_data,fact_sales_data[order_quantity] * RELATED(dim_product_clean[product_cost]))
+
+Gross Profit = [Revenue] - [COGS]
+
+Gross Profit Margin % = ([Revenue] - [COGS]) / [Revenue]
+
+Return Rate % = DIVIDE([Total Returns], [Total Orders])
+
+Revenue = SUMX(fact_sales_data,fact_sales_data[order_quantity] * RELATED(dim_product_clean[product_price]))
+
+Revenue LY = CALCULATE([Revenue], SAMEPERIODLASTYEAR('calendar'[Date]))
+
+Total Orders = COUNTROWS(fact_sales_data)
+
+Total Returns = CALCULATE(
+    SUM(fact_returns_data[return_quantity]),
+    USERELATIONSHIP(fact_returns_data[return_date], 'calendar'[Date]
+))
+
+Total Returns LY = CALCULATE([Total Returns], SAMEPERIODLASTYEAR('calendar'[Date]), USERELATIONSHIP(fact_returns_data[return_date],'calendar'[Date]))
